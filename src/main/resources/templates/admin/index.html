@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>后台博客管理页面</title>
+    <title>欢迎页</title>
     <link rel="stylesheet" href="../../static/lib/Semantic-UI-CSS-master/semantic.css">
     <link rel="stylesheet" href="../../static/css/me.css">
 </head>
 <body>
 <!--1、导航-->
-<nav th:replace="admin/_fragments :: menu(1)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+<nav th:replace="admin/_fragments :: menu(0)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
     <div class="ui container">
         <div class="ui inverted secondary stackable menu">
             <h2 class="ui teal header item">博客后台管理</h2>
@@ -48,75 +48,14 @@
 
 <!--2、中间内容部分-->
 <div class="m-padded-tb-big m-container">
-    <div class="ui container-small">
-        <!--搜索表单-->
-        <form action="#" class="ui segment form" method="post">
-            <div class="inline fields">
-                <div class="field">
-                    <input name="title" placeholder="标题" type="text">
-                </div>
-                <div class="field">
-                    <div class="ui selection dropdown">
-                        <input name="title" placeholder="标题" type="text">
-                        <i class="dropdown icon"></i>
-                        <div class="default text">分类</div>
-                        <div class="menu">
-                            <div class="item" data-value="1">错误日志</div>
-                            <div class="item" data-value="2">开发者手册</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="field">
-                    <div class="ui checkbox">
-                        <input id="recommend" name="recommend" type="checkbox">
-                        <label for="recommend">推荐</label>
-                    </div>
-                </div>
-
-                <div class="field">
-                    <button class="ui mini teal basic button"><i class="search icon"></i> 搜索</button>
-                </div>
+    <div class="ui container">
+        <div class="ui container-small">
+            <div class="ui success large message">
+                <h3>Hi</h3>
+                <p>XXX，欢迎登录！</p>
             </div>
-        </form>
-
-        <!--展示数据-->
-        <table class="ui celled table">
-            <thead>
-            <tr>
-                <th></th>
-                <th>标题</th>
-                <th>类型</th>
-                <th>推荐</th>
-                <th>更新时间</th>
-                <th>操作</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td data-label="id">id</td>
-                <td data-label="Name">IDEA的详细使用</td>
-                <td data-label="Age">工具类</td>
-                <td data-label="Job">是</td>
-                <td data-label="Job">2022-6-1</td>
-                <td>
-                    <a class="ui mini teal button basic" href="#">编辑</a>
-                    <a class="ui mini red button basic" href="#">删除</a>
-                </td>
-            </tr>
-            </tbody>
-            <tfoot>
-            <tr>
-                <th colspan="6">
-                    <div class="ui mini pagination menu">
-                        <a class="item">上一页</a>
-                        <a class="item">下一页</a>
-                    </div>
-                    <a class="ui mini right floated teal basic button" href="#">新增</a>
-                </th>
-            </tr>
-            </tfoot>
-        </table>
+            <img src="https://unsplash.it/1000/500?image=1005" class="ui rounded bordered fluid image" alt="">
+        </div>
     </div>
 </div>
 
@@ -127,7 +66,7 @@
             <div class="three wide column">
                 <div class="ui inverted link list">
                     <div class="item">
-                        <img class="ui rounded images" src="../../static/images/weixin.jpg" th:src="@{/images/weixin.jpg}" style="width: 125px">
+                        <img class="ui rounded images" src="../../static/images/weixin.jpg" style="width: 125px">
                     </div>
                 </div>
             </div>
@@ -161,8 +100,8 @@
 </footer>
 
 <!--/*/<th:block th:replace="_fragments :: script">/*/-->
-<script src="../../static/js/jquery-3.2.1.min.js" th:href="@{/js/jquery-3.2.1.min.js}"></script>
-<script src="../../static/lib/Semantic-UI-CSS-master/semantic.js" th:href="@{/lib/Semantic-UI-CSS-master/semantic.js}"></script>
+<script src="../../static/js/jquery-3.2.1.min.js"></script>
+<script src="../../static/lib/Semantic-UI-CSS-master/semantic.js"></script>
 <!--/*/</th:block>/*/-->
 <script>
     // 点击手机端菜单显示

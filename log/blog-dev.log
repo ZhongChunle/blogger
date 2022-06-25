@@ -447,3 +447,204 @@ java.lang.ArithmeticException: / by zero
 2022-06-25 09:13:56.222  INFO 4248 --- [Thread-29] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25c5e994: startup date [Sat Jun 25 09:09:08 CST 2022]; root of context hierarchy
 2022-06-25 09:13:56.226  INFO 4248 --- [Thread-29] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
 2022-06-25 09:13:56.227  INFO 4248 --- [Thread-29] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-25 10:12:52.490  INFO 5360 --- [main] com.zcl.BloggerApplication               : Starting BloggerApplication on DESKTOP-JMUTO2E with PID 5360 (started by zhong in F:\Java项目案例（手动完成）\博客系统\blogger)
+2022-06-25 10:12:52.491 DEBUG 5360 --- [main] com.zcl.BloggerApplication               : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2022-06-25 10:12:52.491  INFO 5360 --- [main] com.zcl.BloggerApplication               : The following profiles are active: dev
+2022-06-25 10:12:52.697  INFO 5360 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@773bd77b: startup date [Sat Jun 25 10:12:52 CST 2022]; root of context hierarchy
+2022-06-25 10:12:54.354  INFO 5360 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2022-06-25 10:12:54.364  INFO 5360 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-25 10:12:54.365  INFO 5360 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2022-06-25 10:12:54.491  INFO 5360 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-25 10:12:54.491  INFO 5360 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1794 ms
+2022-06-25 10:12:54.648  INFO 5360 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2022-06-25 10:12:54.652  INFO 5360 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-06-25 10:12:54.653  INFO 5360 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-06-25 10:12:54.653  INFO 5360 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-06-25 10:12:54.653  INFO 5360 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2022-06-25 10:12:55.459  INFO 5360 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2022-06-25 10:12:55.471  INFO 5360 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-25 10:12:55.537  INFO 5360 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2022-06-25 10:12:55.539  INFO 5360 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-06-25 10:12:55.541  INFO 5360 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2022-06-25 10:12:55.586  INFO 5360 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-06-25 10:12:55.717  INFO 5360 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-06-25 10:12:55.983  WARN 5360 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @Temporal should only be set on a java.util.Date or java.util.Calendar property: com.zcl.pojo.Comment.creationTime
+2022-06-25 10:12:55.989  INFO 5360 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-06-25 10:12:56.007  INFO 5360 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2022-06-25 10:12:56.017 ERROR 5360 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @Temporal should only be set on a java.util.Date or java.util.Calendar property: com.zcl.pojo.Comment.creationTime
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:543)
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.zcl.BloggerApplication.main(BloggerApplication.java:10)
+Caused by: org.hibernate.AnnotationException: @Temporal should only be set on a java.util.Date or java.util.Calendar property: com.zcl.pojo.Comment.creationTime
+	at org.hibernate.cfg.annotations.SimpleValueBinder.setType(SimpleValueBinder.java:183)
+	at org.hibernate.cfg.annotations.PropertyBinder.makePropertyAndValue(PropertyBinder.java:179)
+	at org.hibernate.cfg.annotations.PropertyBinder.makePropertyValueAndBind(PropertyBinder.java:199)
+	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:2225)
+	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:911)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:738)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.__processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:245)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:43002)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:222)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:265)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.__build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:40002)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.__createEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:40002)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.__createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:43002)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 18 common frames omitted
+
+2022-06-25 10:17:17.577  INFO 14340 --- [main] com.zcl.BloggerApplication               : Starting BloggerApplication on DESKTOP-JMUTO2E with PID 14340 (started by zhong in F:\Java项目案例（手动完成）\博客系统\blogger)
+2022-06-25 10:17:17.578 DEBUG 14340 --- [main] com.zcl.BloggerApplication               : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2022-06-25 10:17:17.578  INFO 14340 --- [main] com.zcl.BloggerApplication               : The following profiles are active: dev
+2022-06-25 10:17:17.779  INFO 14340 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@189b5fb1: startup date [Sat Jun 25 10:17:17 CST 2022]; root of context hierarchy
+2022-06-25 10:17:19.422  INFO 14340 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2022-06-25 10:17:19.432  INFO 14340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-25 10:17:19.433  INFO 14340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2022-06-25 10:17:19.564  INFO 14340 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-25 10:17:19.564  INFO 14340 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1785 ms
+2022-06-25 10:17:19.733  INFO 14340 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2022-06-25 10:17:19.738  INFO 14340 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-06-25 10:17:19.738  INFO 14340 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-06-25 10:17:19.738  INFO 14340 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-06-25 10:17:19.738  INFO 14340 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2022-06-25 10:17:20.564  INFO 14340 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2022-06-25 10:17:20.578  INFO 14340 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-25 10:17:20.642  INFO 14340 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2022-06-25 10:17:20.643  INFO 14340 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-06-25 10:17:20.644  INFO 14340 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2022-06-25 10:17:20.688  INFO 14340 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-06-25 10:17:20.820  INFO 14340 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-06-25 10:17:20.998  WARN 14340 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @Temporal should only be set on a java.util.Date or java.util.Calendar property: com.zcl.pojo.Comment.creationTime
+2022-06-25 10:17:21.004  INFO 14340 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-06-25 10:17:21.022  INFO 14340 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2022-06-25 10:17:21.030 ERROR 14340 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @Temporal should only be set on a java.util.Date or java.util.Calendar property: com.zcl.pojo.Comment.creationTime
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:543)
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.zcl.BloggerApplication.main(BloggerApplication.java:10)
+Caused by: org.hibernate.AnnotationException: @Temporal should only be set on a java.util.Date or java.util.Calendar property: com.zcl.pojo.Comment.creationTime
+	at org.hibernate.cfg.annotations.SimpleValueBinder.setType(SimpleValueBinder.java:183)
+	at org.hibernate.cfg.annotations.PropertyBinder.makePropertyAndValue(PropertyBinder.java:179)
+	at org.hibernate.cfg.annotations.PropertyBinder.makePropertyValueAndBind(PropertyBinder.java:199)
+	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:2225)
+	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:911)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:738)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.__processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:245)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:43002)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:222)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:265)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.__build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:40002)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.__createEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:40002)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.__createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:43002)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 18 common frames omitted
+
+2022-06-25 10:20:22.230  INFO 16148 --- [main] com.zcl.BloggerApplication               : Starting BloggerApplication on DESKTOP-JMUTO2E with PID 16148 (started by zhong in F:\Java项目案例（手动完成）\博客系统\blogger)
+2022-06-25 10:20:22.231 DEBUG 16148 --- [main] com.zcl.BloggerApplication               : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2022-06-25 10:20:22.231  INFO 16148 --- [main] com.zcl.BloggerApplication               : The following profiles are active: dev
+2022-06-25 10:20:22.448  INFO 16148 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4d33940d: startup date [Sat Jun 25 10:20:22 CST 2022]; root of context hierarchy
+2022-06-25 10:20:24.090  INFO 16148 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2022-06-25 10:20:24.101  INFO 16148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-25 10:20:24.102  INFO 16148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2022-06-25 10:20:24.228  INFO 16148 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-25 10:20:24.228  INFO 16148 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1780 ms
+2022-06-25 10:20:24.399  INFO 16148 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2022-06-25 10:20:24.404  INFO 16148 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-06-25 10:20:24.404  INFO 16148 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-06-25 10:20:24.405  INFO 16148 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-06-25 10:20:24.405  INFO 16148 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2022-06-25 10:20:25.192  INFO 16148 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2022-06-25 10:20:25.205  INFO 16148 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-25 10:20:25.270  INFO 16148 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2022-06-25 10:20:25.271  INFO 16148 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-06-25 10:20:25.272  INFO 16148 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2022-06-25 10:20:25.321  INFO 16148 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-06-25 10:20:25.453  INFO 16148 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-06-25 10:20:26.167  INFO 16148 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2022-06-25 10:20:26.188  INFO 16148 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_blog
+2022-06-25 10:20:26.189  INFO 16148 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_blog
+2022-06-25 10:20:26.277  INFO 16148 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_blog_tags
+2022-06-25 10:20:26.278  INFO 16148 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_blog_tags
+2022-06-25 10:20:26.323  INFO 16148 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_comment
+2022-06-25 10:20:26.325  INFO 16148 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_comment
+2022-06-25 10:20:26.372  INFO 16148 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_tag
+2022-06-25 10:20:26.374  INFO 16148 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_tag
+2022-06-25 10:20:26.422  INFO 16148 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_type
+2022-06-25 10:20:26.424  INFO 16148 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_type
+2022-06-25 10:20:26.471  INFO 16148 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_user
+2022-06-25 10:20:26.472  INFO 16148 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_user
+2022-06-25 10:20:27.467  INFO 16148 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-25 10:20:27.922  INFO 16148 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4d33940d: startup date [Sat Jun 25 10:20:22 CST 2022]; root of context hierarchy
+2022-06-25 10:20:28.020  INFO 16148 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.zcl.web.IndexController.index()
+2022-06-25 10:20:28.021  INFO 16148 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blog],methods=[GET]}" onto public java.lang.String com.zcl.web.IndexController.blog()
+2022-06-25 10:20:28.025  INFO 16148 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-06-25 10:20:28.025  INFO 16148 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-06-25 10:20:28.081  INFO 16148 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 10:20:28.081  INFO 16148 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 10:20:28.102  INFO 16148 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2022-06-25 10:20:28.127  INFO 16148 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 10:20:28.862  INFO 16148 --- [main] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-25 10:20:28.970  INFO 16148 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2022-06-25 10:20:29.034  INFO 16148 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2022-06-25 10:20:29.038  INFO 16148 --- [main] com.zcl.BloggerApplication               : Started BloggerApplication in 7.357 seconds (JVM running for 10.165)
+2022-06-25 10:25:39.127  INFO 16148 --- [Thread-33] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4d33940d: startup date [Sat Jun 25 10:20:22 CST 2022]; root of context hierarchy
+2022-06-25 10:25:39.133  INFO 16148 --- [Thread-33] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2022-06-25 10:25:39.135  INFO 16148 --- [Thread-33] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

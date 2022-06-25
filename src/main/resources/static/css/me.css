@@ -1,6 +1,10 @@
 body {
     /* background: url("../images/bg.jpg");*/
 }
+.m-container-small{
+    width: 60em!important;
+    margin: 0 auto;
+}
 
 /*顶部的样式*/
 .padded {
