@@ -1,0 +1,6 @@
+# 指定模板三需要使用HTML而不是HTML5
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev # 指定生产环境还是开发环境的配置

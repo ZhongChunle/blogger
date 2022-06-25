@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>博客关于我页面</title>
+    <link href="../static/lib/Semantic-UI-CSS-master/semantic.css" rel="stylesheet" th:href="@{/lib/Semantic-UI-CSS-master/semantic.css}">
+    <!--自定义样式-->
+    <link href="../static/css/me.css" rel="stylesheet" th:href="@{/css/me.css}">
+
+</head>
+<body>
+<!--1、导航-->
+<nav class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">Blog</h2>
+            <a class="item m-item m-mobile-hide" href="#"><i class="home icon"></i> 首页</a>
+            <a class="item m-item m-mobile-hide" href="#"><i class="idea icon"></i> 分类</a>
+            <a class="item m-item m-mobile-hide" href="#"><i class="tags icon"></i> 标签</a>
+            <a class="item m-item m-mobile-hide" href="#"><i class="clone icon"></i> 归档</a>
+            <a class="item active m-item m-mobile-hide" href="#"><i class="info icon"></i> 关于我</a>
+            <div class="right m-item item m-mobile-hide">
+                <div class="ui icon inverted transparent input">
+                    <input placeholder="Search..." type="text">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--手机端的菜单按钮-->
+    <a class="ui menu toggle black icon button m-right-top m-mobile-show" href="#">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+
+<!--2、中间内容部分-->
+<div class="m-padded-tb-big m-container">
+    <div class="ui container">
+        <div class="ui stackable grid">
+            <!--左边图片部分-->
+            <div class="eleven wide column">
+                <img alt="" class="ui rounded image" src="https://unsplash.it/800/600?image=1005">
+            </div>
+
+            <!--右边个人介绍-->
+            <div class="five wide column">
+                <div class="ui top attached segment">
+                    <div class="ui header">关于我</div>
+                </div>
+
+                <div class="ui attached segment">
+                    <p>我是一个在编程之路上的独行狭，福泽整个世界的程序员</p>
+                    <p>关注我获取更多的学习资源</p>
+                </div>
+
+                <div class="ui attached segment">
+                    <div class="ui orange basic left pointing label">编程</div>
+                    <div class="ui orange basic left pointing label">写作</div>
+                    <div class="ui orange basic left pointing label">运动</div>
+                    <div class="ui orange basic left pointing label">思考</div>
+                </div>
+                <!--学习标签-->
+                <div class="ui attached segment">
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">Java</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">C#</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">C++</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">MySQL</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">Java</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">C#</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">C++</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">MySQL</div>
+                </div>
+                <!--图标-->
+                <div class="ui bottom attached segment">
+                    <a class="ui circular icon button" href="#"><i class="github icon"></i></a>
+                    <a class="ui wechat circular icon button" href="#"><i class="weixin icon"></i></a>
+                    <a class="ui qq circular icon button" data-content="35482156" data-position="bottom center"
+                       href="#"><i class="qq icon"></i></a>
+                </div>
+                <!--微信图标-->
+                <div class="ui weix flowing popup transition hidden">
+                    <img alt="" class="ui rounded image" src="../status/images/weixin.jpg" style="width: 110px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--3、底部-->
+<footer class="ui inverted vertical segment m-padded-tb-massive">
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img class="ui rounded images" src="../status/images/weixin.jpg" style="width: 125px">
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">最新博客</h4>
+                <div class="ui inverted like list m-opacity-mini">
+                    <a class="item" href="#">《IDEA的使用》</a>
+                    <a class="item" href="#">《插件的按住》</a>
+                    <a class="item" href="#">《每日知识》</a>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">联系我们</h4>
+                <div class="ui inverted like list m-opacity-mini">
+                    <a class="item" href="#">电话：1236854522</a>
+                    <a class="item" href="#">微信：weixin123</a>
+                    <a class="item" href="#">邮箱：35125@qq.com</a>
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">关于我</h4>
+                <p class="item m-text-thin m-text-spaced m-opacity-tiny">
+                    这是我的一个个人博客系统学习，会分享我的所有编程之路和项目实战笔记以及源码信息，如有需要的可以添加我的微信联系获取
+                </p>
+            </div>
+        </div>
+        <!--分割线-->
+        <div class="ui divider" style="margin-top: 30px;"></div>
+        <p class="m-text-thin m-text-spaced m-opacity-mini">Copyright @ 2022 - 2028 ZCL Designed by ZCL</p>
+    </div>
+</footer>
+
+<script src="../status/js/jquery-3.2.1.min.js"></script>
+<script src="../status/lib/Semantic-UI-CSS-master/semantic.js"></script>
+<script>
+    // 点击手机端菜单显示
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+    // qq提示
+    $(".qq").popup();
+
+    // 微信提示
+    $(".wechat").popup({
+        popup: $('.weix.popup'),
+        position: 'bottom center'
+    });
+</script>
+</body>
+</html>

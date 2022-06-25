@@ -1,0 +1,449 @@
+2022-06-25 06:42:51.556  INFO 2156 --- [restartedMain] com.zcl.BloggerApplication               : Starting BloggerApplication on DESKTOP-JMUTO2E with PID 2156 (started by zhong in F:\Java项目案例（手动完成）\博客系统\blogger)
+2022-06-25 06:42:51.561 DEBUG 2156 --- [restartedMain] com.zcl.BloggerApplication               : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2022-06-25 06:42:51.561  INFO 2156 --- [restartedMain] com.zcl.BloggerApplication               : The following profiles are active: dev
+2022-06-25 06:42:51.731  INFO 2156 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3356407: startup date [Sat Jun 25 06:42:51 CST 2022]; root of context hierarchy
+2022-06-25 06:42:53.240  INFO 2156 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2022-06-25 06:42:53.249  INFO 2156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-25 06:42:53.249  INFO 2156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2022-06-25 06:42:53.321  INFO 2156 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-25 06:42:53.321  INFO 2156 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1590 ms
+2022-06-25 06:42:53.460  INFO 2156 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2022-06-25 06:42:53.463  INFO 2156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-06-25 06:42:53.463  INFO 2156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-06-25 06:42:53.463  INFO 2156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-06-25 06:42:53.463  INFO 2156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2022-06-25 06:43:02.456  INFO 12112 --- [main] com.zcl.BloggerApplication               : Starting BloggerApplication on DESKTOP-JMUTO2E with PID 12112 (started by zhong in F:\Java项目案例（手动完成）\博客系统\blogger)
+2022-06-25 06:43:02.457 DEBUG 12112 --- [main] com.zcl.BloggerApplication               : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2022-06-25 06:43:02.457  INFO 12112 --- [main] com.zcl.BloggerApplication               : The following profiles are active: dev
+2022-06-25 06:43:02.712  INFO 12112 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fc645e4: startup date [Sat Jun 25 06:43:02 CST 2022]; root of context hierarchy
+2022-06-25 06:43:04.545  INFO 12112 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2022-06-25 06:43:04.558  INFO 12112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-25 06:43:04.559  INFO 12112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2022-06-25 06:43:04.714  INFO 12112 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-25 06:43:04.714  INFO 12112 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2002 ms
+2022-06-25 06:43:04.905  INFO 12112 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2022-06-25 06:43:04.911  INFO 12112 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-06-25 06:43:04.912  INFO 12112 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-06-25 06:43:04.912  INFO 12112 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-06-25 06:43:04.912  INFO 12112 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2022-06-25 06:43:05.758  INFO 12112 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2022-06-25 06:43:05.774  INFO 12112 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-25 06:43:05.892  INFO 12112 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2022-06-25 06:43:05.893  INFO 12112 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-06-25 06:43:05.895  INFO 12112 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2022-06-25 06:43:05.964  INFO 12112 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-06-25 06:43:06.118  INFO 12112 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-06-25 06:43:06.351  INFO 12112 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2022-06-25 06:43:06.394  INFO 12112 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-25 06:43:06.907  INFO 12112 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fc645e4: startup date [Sat Jun 25 06:43:02 CST 2022]; root of context hierarchy
+2022-06-25 06:43:07.006  INFO 12112 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{id}/{name}],methods=[GET]}" onto public java.lang.String com.zcl.web.IndexController.index(java.lang.Integer,java.lang.String)
+2022-06-25 06:43:07.008  INFO 12112 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-06-25 06:43:07.008  INFO 12112 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-06-25 06:43:07.067  INFO 12112 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 06:43:07.067  INFO 12112 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 06:43:07.088  INFO 12112 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2022-06-25 06:43:07.116  INFO 12112 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 06:43:07.800  INFO 12112 --- [main] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-25 06:43:07.909  INFO 12112 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2022-06-25 06:43:07.989  INFO 12112 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2022-06-25 06:43:07.995  INFO 12112 --- [main] com.zcl.BloggerApplication               : Started BloggerApplication in 6.339 seconds (JVM running for 9.091)
+2022-06-25 06:43:36.981  INFO 12112 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2022-06-25 06:43:36.981  INFO 12112 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2022-06-25 06:43:37.007  INFO 12112 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2022-06-25 06:43:58.358  INFO 12112 --- [http-nio-8080-exec-2] com.zcl.aspect.LogAspect                 : ------doBefore------
+2022-06-25 06:43:58.371  INFO 12112 --- [http-nio-8080-exec-2] com.zcl.aspect.LogAspect                 : ------doAfter------
+2022-06-25 06:43:58.371  INFO 12112 --- [http-nio-8080-exec-2] com.zcl.aspect.LogAspect                 : Result：{}index
+2022-06-25 06:45:08.973  INFO 12112 --- [http-nio-8080-exec-5] com.zcl.aspect.LogAspect                 : ------doBefore------
+2022-06-25 06:45:08.974  INFO 12112 --- [http-nio-8080-exec-5] com.zcl.aspect.LogAspect                 : ------doAfter------
+2022-06-25 06:45:08.974  INFO 12112 --- [http-nio-8080-exec-5] com.zcl.aspect.LogAspect                 : Result：{}index
+2022-06-25 06:45:17.072  INFO 12112 --- [http-nio-8080-exec-7] com.zcl.aspect.LogAspect                 : ------doBefore------
+2022-06-25 06:45:17.072  INFO 12112 --- [http-nio-8080-exec-7] com.zcl.aspect.LogAspect                 : ------doAfter------
+2022-06-25 06:45:17.072  INFO 12112 --- [http-nio-8080-exec-7] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 06:59:06.377  INFO 12112 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 06:59:06.387  INFO 12112 --- [http-nio-8080-exec-10] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/1/zhangsan', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[1, zhangsan]}
+2022-06-25 06:59:06.387  INFO 12112 --- [http-nio-8080-exec-10] com.zcl.aspect.LogAspect                 : ------doAfter------
+2022-06-25 06:59:06.387  INFO 12112 --- [http-nio-8080-exec-10] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 07:04:35.227  INFO 12112 --- [Thread-30] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fc645e4: startup date [Sat Jun 25 06:43:02 CST 2022]; root of context hierarchy
+2022-06-25 07:04:35.232  INFO 12112 --- [Thread-30] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2022-06-25 07:04:35.233  INFO 12112 --- [Thread-30] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-25 07:08:11.978  INFO 13924 --- [main] com.zcl.BloggerApplication               : Starting BloggerApplication on DESKTOP-JMUTO2E with PID 13924 (started by zhong in F:\Java项目案例（手动完成）\博客系统\blogger)
+2022-06-25 07:08:11.979 DEBUG 13924 --- [main] com.zcl.BloggerApplication               : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2022-06-25 07:08:11.979  INFO 13924 --- [main] com.zcl.BloggerApplication               : The following profiles are active: dev
+2022-06-25 07:08:12.199  INFO 13924 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66bfd864: startup date [Sat Jun 25 07:08:12 CST 2022]; root of context hierarchy
+2022-06-25 07:08:13.791  INFO 13924 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2022-06-25 07:08:13.801  INFO 13924 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-25 07:08:13.802  INFO 13924 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2022-06-25 07:08:13.930  INFO 13924 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-25 07:08:13.931  INFO 13924 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1732 ms
+2022-06-25 07:08:14.113  INFO 13924 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2022-06-25 07:08:14.117  INFO 13924 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-06-25 07:08:14.118  INFO 13924 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-06-25 07:08:14.118  INFO 13924 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-06-25 07:08:14.118  INFO 13924 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2022-06-25 07:08:14.901  INFO 13924 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2022-06-25 07:08:14.916  INFO 13924 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-25 07:08:14.985  INFO 13924 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2022-06-25 07:08:14.986  INFO 13924 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-06-25 07:08:14.987  INFO 13924 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2022-06-25 07:08:15.029  INFO 13924 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-06-25 07:08:15.169  INFO 13924 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-06-25 07:08:15.361  INFO 13924 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2022-06-25 07:08:15.396  INFO 13924 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-25 07:08:15.862  INFO 13924 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66bfd864: startup date [Sat Jun 25 07:08:12 CST 2022]; root of context hierarchy
+2022-06-25 07:08:15.949  INFO 13924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.zcl.web.IndexController.index()
+2022-06-25 07:08:15.953  INFO 13924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-06-25 07:08:15.953  INFO 13924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-06-25 07:08:16.010  INFO 13924 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 07:08:16.010  INFO 13924 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 07:08:16.031  INFO 13924 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2022-06-25 07:08:16.055  INFO 13924 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 07:08:16.697  INFO 13924 --- [main] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-25 07:08:16.805  INFO 13924 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2022-06-25 07:08:16.876  INFO 13924 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2022-06-25 07:08:16.883  INFO 13924 --- [main] com.zcl.BloggerApplication               : Started BloggerApplication in 5.472 seconds (JVM running for 8.742)
+2022-06-25 07:08:26.086  INFO 13924 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2022-06-25 07:08:26.086  INFO 13924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2022-06-25 07:08:26.114  INFO 13924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2022-06-25 07:08:26.208  INFO 13924 --- [http-nio-8080-exec-1] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 07:08:26.217  INFO 13924 --- [http-nio-8080-exec-1] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 07:08:47.895  INFO 13924 --- [Thread-29] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66bfd864: startup date [Sat Jun 25 07:08:12 CST 2022]; root of context hierarchy
+2022-06-25 07:08:47.899  INFO 13924 --- [Thread-29] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2022-06-25 07:08:47.899  INFO 13924 --- [Thread-29] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-25 07:10:37.898  INFO 11964 --- [main] com.zcl.BloggerApplication               : Starting BloggerApplication on DESKTOP-JMUTO2E with PID 11964 (started by zhong in F:\Java项目案例（手动完成）\博客系统\blogger)
+2022-06-25 07:10:37.899 DEBUG 11964 --- [main] com.zcl.BloggerApplication               : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2022-06-25 07:10:37.899  INFO 11964 --- [main] com.zcl.BloggerApplication               : The following profiles are active: dev
+2022-06-25 07:10:38.128  INFO 11964 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@847f3e7: startup date [Sat Jun 25 07:10:38 CST 2022]; root of context hierarchy
+2022-06-25 07:10:39.734  INFO 11964 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2022-06-25 07:10:39.745  INFO 11964 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-25 07:10:39.746  INFO 11964 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2022-06-25 07:10:39.870  INFO 11964 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-25 07:10:39.870  INFO 11964 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1742 ms
+2022-06-25 07:10:40.033  INFO 11964 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2022-06-25 07:10:40.037  INFO 11964 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-06-25 07:10:40.037  INFO 11964 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-06-25 07:10:40.038  INFO 11964 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-06-25 07:10:40.038  INFO 11964 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2022-06-25 07:10:40.854  INFO 11964 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2022-06-25 07:10:40.868  INFO 11964 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-25 07:10:40.946  INFO 11964 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2022-06-25 07:10:40.948  INFO 11964 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-06-25 07:10:40.949  INFO 11964 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2022-06-25 07:10:40.999  INFO 11964 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-06-25 07:10:41.126  INFO 11964 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-06-25 07:10:41.304  INFO 11964 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2022-06-25 07:10:41.341  INFO 11964 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-25 07:10:41.803  INFO 11964 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@847f3e7: startup date [Sat Jun 25 07:10:38 CST 2022]; root of context hierarchy
+2022-06-25 07:10:41.896  INFO 11964 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.zcl.web.IndexController.index()
+2022-06-25 07:10:41.900  INFO 11964 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-06-25 07:10:41.900  INFO 11964 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-06-25 07:10:41.956  INFO 11964 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 07:10:41.956  INFO 11964 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 07:10:41.979  INFO 11964 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2022-06-25 07:10:42.003  INFO 11964 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 07:10:42.652  INFO 11964 --- [main] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-25 07:10:42.757  INFO 11964 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2022-06-25 07:10:42.849  INFO 11964 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2022-06-25 07:10:42.855  INFO 11964 --- [main] com.zcl.BloggerApplication               : Started BloggerApplication in 5.645 seconds (JVM running for 8.319)
+2022-06-25 07:10:53.231  INFO 11964 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2022-06-25 07:10:53.232  INFO 11964 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2022-06-25 07:10:53.261  INFO 11964 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2022-06-25 07:10:53.385  INFO 11964 --- [http-nio-8080-exec-1] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 07:10:53.398  INFO 11964 --- [http-nio-8080-exec-1] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 07:10:56.401  INFO 11964 --- [http-nio-8080-exec-7] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 07:10:56.401  INFO 11964 --- [http-nio-8080-exec-7] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 07:11:02.971  INFO 11964 --- [http-nio-8080-exec-4] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 07:11:02.972  INFO 11964 --- [http-nio-8080-exec-4] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 07:11:10.884  INFO 11964 --- [Thread-29] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@847f3e7: startup date [Sat Jun 25 07:10:38 CST 2022]; root of context hierarchy
+2022-06-25 07:11:10.887  INFO 11964 --- [Thread-29] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2022-06-25 07:11:10.888  INFO 11964 --- [Thread-29] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-25 08:06:34.283  INFO 3028 --- [main] com.zcl.BloggerApplication               : Starting BloggerApplication on DESKTOP-JMUTO2E with PID 3028 (started by zhong in F:\Java项目案例（手动完成）\博客系统\blogger)
+2022-06-25 08:06:34.284 DEBUG 3028 --- [main] com.zcl.BloggerApplication               : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2022-06-25 08:06:34.285  INFO 3028 --- [main] com.zcl.BloggerApplication               : The following profiles are active: dev
+2022-06-25 08:06:34.521  INFO 3028 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9a7a808: startup date [Sat Jun 25 08:06:34 CST 2022]; root of context hierarchy
+2022-06-25 08:06:36.317  INFO 3028 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2022-06-25 08:06:36.328  INFO 3028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-25 08:06:36.329  INFO 3028 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2022-06-25 08:06:36.468  INFO 3028 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-25 08:06:36.468  INFO 3028 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1947 ms
+2022-06-25 08:06:36.630  INFO 3028 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2022-06-25 08:06:36.636  INFO 3028 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-06-25 08:06:36.636  INFO 3028 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-06-25 08:06:36.636  INFO 3028 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-06-25 08:06:36.636  INFO 3028 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2022-06-25 08:06:37.487  INFO 3028 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2022-06-25 08:06:37.504  INFO 3028 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-25 08:06:37.575  INFO 3028 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2022-06-25 08:06:37.577  INFO 3028 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-06-25 08:06:37.578  INFO 3028 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2022-06-25 08:06:37.635  INFO 3028 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-06-25 08:06:37.764  INFO 3028 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-06-25 08:06:37.958  INFO 3028 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2022-06-25 08:06:37.999  INFO 3028 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-25 08:06:38.508  INFO 3028 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9a7a808: startup date [Sat Jun 25 08:06:34 CST 2022]; root of context hierarchy
+2022-06-25 08:06:38.607  INFO 3028 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.zcl.web.IndexController.index()
+2022-06-25 08:06:38.611  INFO 3028 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-06-25 08:06:38.611  INFO 3028 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-06-25 08:06:38.669  INFO 3028 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 08:06:38.669  INFO 3028 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 08:06:38.691  INFO 3028 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2022-06-25 08:06:38.716  INFO 3028 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 08:06:39.409  INFO 3028 --- [main] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-25 08:06:39.521  INFO 3028 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2022-06-25 08:06:39.592  INFO 3028 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2022-06-25 08:06:39.597  INFO 3028 --- [main] com.zcl.BloggerApplication               : Started BloggerApplication in 5.925 seconds (JVM running for 9.384)
+2022-06-25 08:07:10.219  INFO 3028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2022-06-25 08:07:10.219  INFO 3028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2022-06-25 08:07:10.245  INFO 3028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2022-06-25 08:07:10.355  INFO 3028 --- [http-nio-8080-exec-1] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 08:07:10.363  INFO 3028 --- [http-nio-8080-exec-1] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 08:16:04.740  INFO 3028 --- [http-nio-8080-exec-2] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 08:16:04.740  INFO 3028 --- [http-nio-8080-exec-2] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 08:16:44.341  INFO 3028 --- [http-nio-8080-exec-10] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 08:16:44.342  INFO 3028 --- [http-nio-8080-exec-10] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 08:19:59.842  INFO 3028 --- [http-nio-8080-exec-1] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 08:19:59.843  INFO 3028 --- [http-nio-8080-exec-1] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 08:29:44.014  INFO 3028 --- [http-nio-8080-exec-3] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 08:29:44.015  INFO 3028 --- [http-nio-8080-exec-3] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 08:29:56.896  INFO 3028 --- [http-nio-8080-exec-5] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 08:29:56.896  INFO 3028 --- [http-nio-8080-exec-5] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 08:35:52.785  INFO 3028 --- [http-nio-8080-exec-4] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 08:35:52.785  INFO 3028 --- [http-nio-8080-exec-4] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 08:35:56.017  INFO 3028 --- [http-nio-8080-exec-10] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 08:35:56.017  INFO 3028 --- [http-nio-8080-exec-10] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 08:36:10.921  INFO 3028 --- [http-nio-8080-exec-6] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 08:36:10.921  INFO 3028 --- [http-nio-8080-exec-6] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 08:36:29.169  INFO 3028 --- [http-nio-8080-exec-5] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 08:36:29.169  INFO 3028 --- [http-nio-8080-exec-5] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 08:36:53.147  INFO 3028 --- [http-nio-8080-exec-9] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 08:36:53.147  INFO 3028 --- [http-nio-8080-exec-9] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 08:43:50.797  INFO 3028 --- [http-nio-8080-exec-3] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 08:43:50.797  INFO 3028 --- [http-nio-8080-exec-3] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 08:47:00.781  INFO 3028 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 08:47:00.786  INFO 3028 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.zcl.web.IndexController.index()
+2022-06-25 08:47:00.788  INFO 3028 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blog],methods=[GET]}" onto public java.lang.String com.zcl.web.IndexController.blog()
+2022-06-25 08:47:00.796  INFO 3028 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-06-25 08:47:00.797  INFO 3028 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-06-25 08:47:00.825  INFO 3028 --- [http-nio-8080-exec-2] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 08:47:00.884  INFO 3028 --- [http-nio-8080-exec-2] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 08:47:00.961  INFO 3028 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 08:47:00.961  INFO 3028 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 08:47:11.487  INFO 3028 --- [http-nio-8080-exec-8] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.blog', args=[]}
+2022-06-25 08:47:11.487  INFO 3028 --- [http-nio-8080-exec-8] com.zcl.aspect.LogAspect                 : Result：blog
+2022-06-25 08:48:44.010  INFO 3028 --- [http-nio-8080-exec-10] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.blog', args=[]}
+2022-06-25 08:48:44.010  INFO 3028 --- [http-nio-8080-exec-10] com.zcl.aspect.LogAspect                 : Result：blog
+2022-06-25 08:49:23.221  INFO 3028 --- [http-nio-8080-exec-2] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.blog', args=[]}
+2022-06-25 08:49:23.222  INFO 3028 --- [http-nio-8080-exec-2] com.zcl.aspect.LogAspect                 : Result：blog
+2022-06-25 08:49:49.591  INFO 3028 --- [http-nio-8080-exec-8] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.blog', args=[]}
+2022-06-25 08:49:49.591  INFO 3028 --- [http-nio-8080-exec-8] com.zcl.aspect.LogAspect                 : Result：blog
+2022-06-25 09:02:07.613  INFO 3028 --- [Thread-30] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9a7a808: startup date [Sat Jun 25 08:06:34 CST 2022]; root of context hierarchy
+2022-06-25 09:02:07.617  INFO 3028 --- [Thread-30] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2022-06-25 09:02:07.618  INFO 3028 --- [Thread-30] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-25 09:09:07.788  INFO 4248 --- [main] com.zcl.BloggerApplication               : Starting BloggerApplication on DESKTOP-JMUTO2E with PID 4248 (started by zhong in F:\Java项目案例（手动完成）\博客系统\blogger)
+2022-06-25 09:09:07.789 DEBUG 4248 --- [main] com.zcl.BloggerApplication               : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2022-06-25 09:09:07.789  INFO 4248 --- [main] com.zcl.BloggerApplication               : The following profiles are active: dev
+2022-06-25 09:09:08.002  INFO 4248 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25c5e994: startup date [Sat Jun 25 09:09:08 CST 2022]; root of context hierarchy
+2022-06-25 09:09:09.631  INFO 4248 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2022-06-25 09:09:09.642  INFO 4248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-25 09:09:09.643  INFO 4248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2022-06-25 09:09:09.767  INFO 4248 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-25 09:09:09.767  INFO 4248 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1765 ms
+2022-06-25 09:09:09.933  INFO 4248 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2022-06-25 09:09:09.937  INFO 4248 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-06-25 09:09:09.937  INFO 4248 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-06-25 09:09:09.937  INFO 4248 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-06-25 09:09:09.938  INFO 4248 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2022-06-25 09:09:10.725  INFO 4248 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2022-06-25 09:09:10.739  INFO 4248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-06-25 09:09:10.801  INFO 4248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2022-06-25 09:09:10.802  INFO 4248 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-06-25 09:09:10.803  INFO 4248 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2022-06-25 09:09:10.849  INFO 4248 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-06-25 09:09:10.981  INFO 4248 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-06-25 09:09:11.147  INFO 4248 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2022-06-25 09:09:11.182  INFO 4248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-25 09:09:11.668  INFO 4248 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25c5e994: startup date [Sat Jun 25 09:09:08 CST 2022]; root of context hierarchy
+2022-06-25 09:09:11.764  INFO 4248 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.zcl.web.IndexController.index()
+2022-06-25 09:09:11.765  INFO 4248 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blog],methods=[GET]}" onto public java.lang.String com.zcl.web.IndexController.blog()
+2022-06-25 09:09:11.768  INFO 4248 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-06-25 09:09:11.769  INFO 4248 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-06-25 09:09:11.831  INFO 4248 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 09:09:11.831  INFO 4248 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 09:09:11.853  INFO 4248 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2022-06-25 09:09:11.879  INFO 4248 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 09:09:12.580  INFO 4248 --- [main] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-25 09:09:12.709  INFO 4248 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2022-06-25 09:09:12.776  INFO 4248 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2022-06-25 09:09:12.782  INFO 4248 --- [main] com.zcl.BloggerApplication               : Started BloggerApplication in 5.649 seconds (JVM running for 8.373)
+2022-06-25 09:09:24.363  INFO 4248 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2022-06-25 09:09:24.363  INFO 4248 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2022-06-25 09:09:24.391  INFO 4248 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2022-06-25 09:09:24.487  INFO 4248 --- [http-nio-8080-exec-2] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 09:09:24.503 ERROR 4248 --- [http-nio-8080-exec-2] c.z.handler.ControllerExceptionHandler   : Request URL:http://localhost:8080/,Exception:{}
+
+java.lang.ArithmeticException: / by zero
+	at com.zcl.web.IndexController.index(IndexController.java:20)
+	at com.zcl.web.IndexController$$FastClassBySpringCGLIB$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.zcl.web.IndexController$$EnhancerBySpringCGLIB$$1.index(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022-06-25 09:09:24.507  WARN 4248 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved exception caused by Handler execution: java.lang.ArithmeticException: / by zero
+2022-06-25 09:09:33.399  INFO 4248 --- [http-nio-8080-exec-1] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 09:09:33.399 ERROR 4248 --- [http-nio-8080-exec-1] c.z.handler.ControllerExceptionHandler   : Request URL:http://localhost:8080/,Exception:{}
+
+java.lang.ArithmeticException: / by zero
+	at com.zcl.web.IndexController.index(IndexController.java:20)
+	at com.zcl.web.IndexController$$FastClassBySpringCGLIB$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.zcl.web.IndexController$$EnhancerBySpringCGLIB$$1.index(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022-06-25 09:09:33.400  WARN 4248 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved exception caused by Handler execution: java.lang.ArithmeticException: / by zero
+2022-06-25 09:09:37.738  INFO 4248 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 09:09:37.759  INFO 4248 --- [http-nio-8080-exec-3] com.zcl.aspect.LogAspect                 : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zcl.web.IndexController.index', args=[]}
+2022-06-25 09:09:37.778  INFO 4248 --- [http-nio-8080-exec-3] com.zcl.aspect.LogAspect                 : Result：index
+2022-06-25 09:09:37.892  INFO 4248 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 09:09:37.893  INFO 4248 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-06-25 09:13:56.222  INFO 4248 --- [Thread-29] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25c5e994: startup date [Sat Jun 25 09:09:08 CST 2022]; root of context hierarchy
+2022-06-25 09:13:56.226  INFO 4248 --- [Thread-29] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2022-06-25 09:13:56.227  INFO 4248 --- [Thread-29] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

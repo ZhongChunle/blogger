@@ -1,0 +1,18 @@
+# 开发环境
+spring:
+  datasource: # 数据库连接信息
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:13306/blog?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update # 每次连接数据库的时候都会比对实体类的字段与数据库的映射是否一样，如果实体类做了更改表结构也会同步更改，生成环境确定后改为none
+    show-sql: true # 把sql语句输出在控制台以及日志文件里面
+logging: # 设置日志级别
+  level:
+    root: info
+    com.zcl: debug # 指定包的日志级别
+  file: log/blog-dev.log # 输出的日志级别文件
+server:
+  port: 8080

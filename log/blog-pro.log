@@ -1,0 +1,8 @@
+2022-06-24 21:05:20.963  INFO 2356 --- [restartedMain] com.zcl.BloggerApplication               : Starting BloggerApplication on DESKTOP-JMUTO2E with PID 2356 (started by zhong in F:\Java项目案例（手动完成）\博客系统\blogger)
+2022-06-24 21:05:20.966  INFO 2356 --- [restartedMain] com.zcl.BloggerApplication               : The following profiles are active: pro
+2022-06-24 21:05:23.532  WARN 2356 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-06-24 21:05:23.898  INFO 2356 --- [restartedMain] com.zcl.BloggerApplication               : Started BloggerApplication in 3.196 seconds (JVM running for 3.924)
+2022-06-24 21:17:20.212  INFO 21300 --- [restartedMain] com.zcl.BloggerApplication               : Starting BloggerApplication on DESKTOP-JMUTO2E with PID 21300 (started by zhong in F:\Java项目案例（手动完成）\博客系统\blogger)
+2022-06-24 21:17:20.213  INFO 21300 --- [restartedMain] com.zcl.BloggerApplication               : The following profiles are active: pro
+2022-06-24 21:17:22.834  WARN 21300 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-06-24 21:17:23.219  INFO 21300 --- [restartedMain] com.zcl.BloggerApplication               : Started BloggerApplication in 3.289 seconds (JVM running for 4.019)
